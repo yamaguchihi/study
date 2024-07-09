@@ -1,0 +1,20 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  max-width: 857.6px;
+  justify-content: space-between;
+}
+
+.site-title {
+
+}
+
+.navigation-container {
+  width: auto;
+  display: flex;
+  column-gap: 30px;
+}
+
+.navigation-container li {
+  list-style: none;
+}

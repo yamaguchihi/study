@@ -1,21 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import * as UtilComponents from './components';
+import Header from './components/header';
+import Contact from './components';
 
-function  App () {
+function App() {
   return (
-    <div className = Title >
-      <header>My Work</header>
-      <div className = lefttitle>
-        <li>About</li>
-        <li>Works</li>
-        <li>News</li>
-        <li>Contact</li>
-        <li>instagram</li>
-      </div>
+    <div className="main-container">
+      <UtilComponents.Header />
+      <UtilComponents.About />
     </div>
-  )
+  );
 }
 
-function app
-
+// my-react-app/public
 export default App;
