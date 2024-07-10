@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import './header.css';
 
-import { getUser } from './service/getUser';
+// import { getUser } from './service/getUser';
 
 export function Header() {
   const [userState, setUserState] = useState();
@@ -13,11 +13,11 @@ export function Header() {
   //   setCount(count + 1);
   // };
 
-  useEffect(() => {
-    getUser().then((data) => {
-      setUserState(data);
-    });
-  }, []);
+  // useEffect(() => {
+  //   getUser().then((data) => {
+  //     setUserState(data);
+  //   });
+  // }, []);
 
   return (
     <header className="header-container">
@@ -28,7 +28,7 @@ export function Header() {
         <li>News</li>
         <li>Contact</li>
         <li>instagram</li>
-        <li>{userState && userState.userName}</li>
+        {/* <li>{userState && userState.userName}</li> */}
       </ul>
       {/* <button onClick={handleCountUp}>増やす</button> */}
       {/* {count} */}

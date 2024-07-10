@@ -1,0 +1,15 @@
+.about-container {
+  max-width: 960px;
+  margin: 0px auto 130px auto;
+  padding: 0px 4%;
+}
+
+.about-title {
+  text-align: center;
+  font-size: x-large;
+}
+
+.about {
+  display: flex;
+  margin:20px 0px 20px 0px
+}
