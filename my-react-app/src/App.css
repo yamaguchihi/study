@@ -1,1 +1,11 @@
+img{
+    width: auto;
+    height: auto;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 

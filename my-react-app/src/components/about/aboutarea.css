@@ -1,0 +1,31 @@
+h1{
+    display: flex;
+    flex-flow:column;
+    
+   
+
+
+ 
+ 
+}
+
+p{ 
+ width: 100px;  
+ margin: 0 auto; 
+ text-align: center;
+ font-size: x-large;
+ border-bottom: 2px solid;
+  
+}
+
+ul{
+    border: 2px #ccc solid;
+    font-size: medium;
+}
+
+div{
+    font-size: medium;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}

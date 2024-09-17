@@ -1,0 +1,38 @@
+
+.tittle{
+justify-content: space-between;
+ margin: auto;
+ padding-left: auto;
+ padding-right: auto; 
+ width: 980px;
+ height: 400px;
+ max-width: 100%;
+ height: auto;
+}
+ul{
+ margin: 50px 80px 50px 50px;
+}
+
+.lefttittle{
+margin-top: 50px;
+ padding: 50px 50px;
+ border-left: 5px soild #2589d0;
+ color: #333333;   
+ font-size: xx-large;
+ /* background-color: aqua; */
+}
+
+
+header{
+ display: flex;
+ justify-content: space-between;
+ max-width: 100%;
+ margin: auto;
+ padding-left: auto;
+ padding-right: auto;   
+}
+
+.righttittle{
+ display: table-cell;
+ vertical-align: middle;
+}

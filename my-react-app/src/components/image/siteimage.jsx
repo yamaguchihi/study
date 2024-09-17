@@ -1,3 +1,6 @@
+import './siteimage.css'
+
+
 export function Siteimage (){
     return (
         <div>
